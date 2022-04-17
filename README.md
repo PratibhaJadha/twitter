@@ -8,8 +8,6 @@ This application uses Docker for containerization.
 ![alt text](twitter_streaming.png)
 
 # Usage:
-All configuration values are in **application/src/main/resources/application.conf**
-
 1. 
 Set the TOPIC to whatever you want to call it.
 Do not change BOOTSTRAP_SERVERS as it is already configured to connect to the Docker container that runs Kafka.
